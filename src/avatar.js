@@ -1,5 +1,5 @@
-import React, {PropTypes} from 'react';
-export default class Avatar extends React.Component {
+import React, {Component, PropTypes} from 'react';
+export default class Avatar extends Component {
   render() {
     return (
       <div className="avatar">
